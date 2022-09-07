@@ -1,2 +1,2 @@
 #!/bin/bash
-echo {a..z}{a..z} | tr   0n | grep -v "oo"
+echo {a..z}{a..z} | tr   "0\n" | grep -v "oo"
